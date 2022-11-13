@@ -1,5 +1,0 @@
-2022-11-13 17:49:05,383 - timer.py:(48) [DEBUG]: Running job: update_messaging
-2022-11-13 17:49:05,446 - timer.py:(50) [DEBUG]: Executed job: update_messaging
-2022-11-13 17:49:05,446 - timer.py:(48) [DEBUG]: Running job: update_status
-2022-11-13 17:49:05,447 - timer.py:(50) [DEBUG]: Executed job: update_status
-2022-11-13 17:49:05,447 - timer.py:(48) [DEBUG]: Running job: metering
