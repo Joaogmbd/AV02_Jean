@@ -16,5 +16,5 @@
 ![Atividade 6.3](6.3.png)<br />
 - Atividade 6.4<br />
 `#!/bin/bash`<br />
-`printf "O diretorio atual eh: $(pwd) \n"`
-`printf "O Shell desse usuario eh: $(grep $(whoami) /etc/passwd | cut -d ":" -f 7)\n"`
+`printf "O diretorio atual eh: $(pwd) \n"`<br />
+`printf "O Shell desse usuario eh: $(grep $(whoami) /etc/passwd | cut -d ":" -f 7)\n"`<br />
