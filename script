@@ -1,0 +1,3 @@
+#!/bin/bash
+printf "O diretorio atual eh: $(pwd) \n"
+printf "O Shell desse usuario eh: $(grep $(whoami) /etc/passwd | cut -d ":" -f 7)\n"

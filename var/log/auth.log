@@ -1,0 +1,243 @@
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: new group: name=ubuntu, GID=1001
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: new user: name=ubuntu, UID=1001, GID=1001, home=/home/ubuntu, shell=/bin/bash
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'adm'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'dialout'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'cdrom'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'floppy'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'sudo'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'audio'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'dip'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'video'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'plugdev'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'lxd'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to group 'netdev'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'adm'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'dialout'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'cdrom'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'floppy'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'sudo'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'audio'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'dip'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'video'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'plugdev'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'lxd'
+Nov 13 00:38:58 ubuntu-bionic useradd[818]: add 'ubuntu' to shadow group 'netdev'
+Nov 13 00:38:58 ubuntu-bionic passwd[825]: password for 'ubuntu' changed by 'root'
+Nov 13 00:38:58 ubuntu-bionic systemd-logind[933]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 00:38:58 ubuntu-bionic systemd-logind[933]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 00:38:58 ubuntu-bionic systemd-logind[933]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 00:38:58 ubuntu-bionic systemd-logind[933]: New seat seat0.
+Nov 13 00:39:00 ubuntu-bionic sshd[1365]: Server listening on 0.0.0.0 port 22.
+Nov 13 00:39:00 ubuntu-bionic sshd[1365]: Server listening on :: port 22.
+Nov 13 00:39:01 ubuntu-bionic sshd[1376]: Accepted publickey for vagrant from 10.0.2.2 port 64511 ssh2: RSA SHA256:1M4RzhMyWuFS/86uPY/ce2prh/dVTHW7iD2RhpquOZA
+Nov 13 00:39:01 ubuntu-bionic sshd[1376]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 00:39:01 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Nov 13 00:39:01 ubuntu-bionic systemd-logind[933]: New session 1 of user vagrant.
+Nov 13 00:39:05 ubuntu-bionic sshd[1376]: pam_unix(sshd:session): session closed for user vagrant
+Nov 13 00:39:05 ubuntu-bionic systemd-logind[933]: Removed session 1.
+Nov 13 00:39:05 ubuntu-bionic sshd[1871]: Accepted publickey for vagrant from 10.0.2.2 port 64548 ssh2: RSA SHA256:9/yFkcgfPJM8UUErmxu0n8ckcMjpJ9jIJBXI6VE/+Kw
+Nov 13 00:39:05 ubuntu-bionic sshd[1871]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 00:39:05 ubuntu-bionic systemd-logind[933]: New session 3 of user vagrant.
+Nov 13 00:39:05 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:07 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:07 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:07 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:07 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:07 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:07 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:08 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:08 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:08 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:08 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:08 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:08 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:08 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:09 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:09 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:39:09 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:39:09 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:39:09 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:40:31 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:40:31 ubuntu-bionic sshd[1871]: pam_unix(sshd:session): session closed for user vagrant
+Nov 13 00:40:31 ubuntu-bionic systemd-logind[933]: Removed session 3.
+Nov 13 00:41:22 ubuntu-bionic sshd[2541]: Accepted publickey for vagrant from 10.0.2.2 port 64630 ssh2: RSA SHA256:9/yFkcgfPJM8UUErmxu0n8ckcMjpJ9jIJBXI6VE/+Kw
+Nov 13 00:41:22 ubuntu-bionic sshd[2541]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 00:41:22 ubuntu-bionic systemd-logind[933]: New session 5 of user vagrant.
+Nov 13 00:41:22 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Nov 13 00:42:05 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/apt-get install ca-certificates curl gnupg lsb-release
+Nov 13 00:42:05 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:06 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:42:20 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/mkdir -p /etc/apt/keyrings
+Nov 13 00:42:20 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:20 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:42:24 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+Nov 13 00:42:24 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:24 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:42:31 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/su
+Nov 13 00:42:31 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:31 ubuntu-bionic su[2685]: Successful su for root by root
+Nov 13 00:42:31 ubuntu-bionic su[2685]: + /dev/pts/0 root:root
+Nov 13 00:42:31 ubuntu-bionic su[2685]: pam_unix(su:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:31 ubuntu-bionic su[2685]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 13 00:42:36 ubuntu-bionic sudo:     root : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+Nov 13 00:42:36 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:38 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:42:43 ubuntu-bionic sudo:     root : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/docker.list
+Nov 13 00:42:43 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:43 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:42:48 ubuntu-bionic sudo:     root : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/apt-get update
+Nov 13 00:42:48 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:42:50 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:42:55 ubuntu-bionic sudo:     root : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/usr/bin/apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+Nov 13 00:42:55 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:43:19 ubuntu-bionic groupadd[3219]: group added to /etc/group: name=docker, GID=999
+Nov 13 00:43:19 ubuntu-bionic groupadd[3219]: group added to /etc/gshadow: name=docker
+Nov 13 00:43:19 ubuntu-bionic groupadd[3219]: new group: name=docker, GID=999
+Nov 13 00:43:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:45:00 ubuntu-bionic su[2685]: pam_unix(su:session): session closed for user root
+Nov 13 00:45:00 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:45:41 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant/CI/api_rest_gin_go_2-validacoes-e-testes ; USER=root ; COMMAND=/bin/su
+Nov 13 00:45:41 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:45:41 ubuntu-bionic su[4610]: Successful su for root by root
+Nov 13 00:45:41 ubuntu-bionic su[4610]: + /dev/pts/0 root:root
+Nov 13 00:45:41 ubuntu-bionic su[4610]: pam_unix(su:session): session opened for user root by vagrant(uid=0)
+Nov 13 00:45:41 ubuntu-bionic su[4610]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 13 00:55:25 ubuntu-bionic su[4610]: pam_unix(su:session): session closed for user root
+Nov 13 00:55:25 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:55:27 ubuntu-bionic sshd[2619]: Received disconnect from 10.0.2.2 port 64630:11: disconnected by user
+Nov 13 00:55:27 ubuntu-bionic sshd[2619]: Disconnected from user vagrant 10.0.2.2 port 64630
+Nov 13 00:55:27 ubuntu-bionic sshd[2541]: pam_unix(sshd:session): session closed for user vagrant
+Nov 13 00:55:27 ubuntu-bionic systemd-logind[933]: Removed session 5.
+Nov 13 00:55:37 ubuntu-bionic sshd[12299]: Accepted publickey for vagrant from 10.0.2.2 port 61884 ssh2: RSA SHA256:9/yFkcgfPJM8UUErmxu0n8ckcMjpJ9jIJBXI6VE/+Kw
+Nov 13 00:55:37 ubuntu-bionic sshd[12299]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 00:55:37 ubuntu-bionic systemd-logind[933]: New session 7 of user vagrant.
+Nov 13 00:55:37 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Nov 13 00:55:39 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:55:39 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:55:39 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:55:39 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 00:55:39 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 00:55:39 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 00:55:39 ubuntu-bionic systemd-logind[933]: System is powering down.
+Nov 13 00:55:39 ubuntu-bionic sshd[12299]: pam_unix(sshd:session): session closed for user vagrant
+Nov 13 00:55:39 ubuntu-bionic sshd[1365]: Received signal 15; terminating.
+Nov 13 00:55:39 ubuntu-bionic systemd: pam_unix(systemd-user:session): session closed for user vagrant
+Nov 13 17:13:16 ubuntu-bionic systemd-logind[835]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 13 17:13:16 ubuntu-bionic systemd-logind[835]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 13 17:13:16 ubuntu-bionic systemd-logind[835]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 13 17:13:16 ubuntu-bionic systemd-logind[835]: New seat seat0.
+Nov 13 17:13:16 ubuntu-bionic sshd[963]: Server listening on 0.0.0.0 port 22.
+Nov 13 17:13:16 ubuntu-bionic sshd[963]: Server listening on :: port 22.
+Nov 13 17:13:16 ubuntu-bionic sshd[993]: Accepted publickey for vagrant from 10.0.2.2 port 54999 ssh2: RSA SHA256:9/yFkcgfPJM8UUErmxu0n8ckcMjpJ9jIJBXI6VE/+Kw
+Nov 13 17:13:16 ubuntu-bionic sshd[993]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 17:13:17 ubuntu-bionic systemd-logind[835]: New session 1 of user vagrant.
+Nov 13 17:13:17 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:21 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:21 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:21 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:21 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:21 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:21 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sudo:  vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -l
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 13 17:13:22 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:13:22 ubuntu-bionic sshd[1829]: Connection reset by 10.0.2.2 port 54927 [preauth]
+Nov 13 17:13:22 ubuntu-bionic sshd[993]: pam_unix(sshd:session): session closed for user vagrant
+Nov 13 17:13:22 ubuntu-bionic systemd-logind[835]: Removed session 1.
+Nov 13 17:14:05 ubuntu-bionic sshd[8449]: Accepted publickey for vagrant from 10.0.2.2 port 55057 ssh2: RSA SHA256:9/yFkcgfPJM8UUErmxu0n8ckcMjpJ9jIJBXI6VE/+Kw
+Nov 13 17:14:05 ubuntu-bionic sshd[8449]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 17:14:05 ubuntu-bionic systemd-logind[835]: New session 3 of user vagrant.
+Nov 13 17:14:05 ubuntu-bionic systemd: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Nov 13 17:15:29 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/su
+Nov 13 17:15:29 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 17:15:29 ubuntu-bionic su[8633]: Successful su for root by root
+Nov 13 17:15:29 ubuntu-bionic su[8633]: + /dev/pts/0 root:root
+Nov 13 17:15:29 ubuntu-bionic su[8633]: pam_unix(su:session): session opened for user root by vagrant(uid=0)
+Nov 13 17:15:29 ubuntu-bionic su[8633]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 13 17:17:01 ubuntu-bionic CRON[8646]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 17:17:01 ubuntu-bionic CRON[8646]: pam_unix(cron:session): session closed for user root
+Nov 13 17:17:44 ubuntu-bionic su[8633]: pam_unix(su:session): session closed for user root
+Nov 13 17:17:44 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:20:13 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/chmod +x process_running.sh
+Nov 13 17:20:13 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 17:20:13 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:28:24 ubuntu-bionic sudo:  vagrant : TTY=pts/0 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/su
+Nov 13 17:28:24 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 17:28:24 ubuntu-bionic su[8749]: Successful su for root by root
+Nov 13 17:28:24 ubuntu-bionic su[8749]: + /dev/pts/0 root:root
+Nov 13 17:28:24 ubuntu-bionic su[8749]: pam_unix(su:session): session opened for user root by vagrant(uid=0)
+Nov 13 17:28:24 ubuntu-bionic su[8749]: pam_systemd(su:session): Cannot create session: Already running in a session
+Nov 13 17:28:46 ubuntu-bionic su[8749]: pam_unix(su:session): session closed for user root
+Nov 13 17:28:46 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 17:29:29 ubuntu-bionic sshd[8533]: Received disconnect from 10.0.2.2 port 55057:11: disconnected by user
+Nov 13 17:29:29 ubuntu-bionic sshd[8533]: Disconnected from user vagrant 10.0.2.2 port 55057
+Nov 13 17:29:29 ubuntu-bionic sshd[8449]: pam_unix(sshd:session): session closed for user vagrant
+Nov 13 17:29:38 ubuntu-bionic sshd[8809]: Accepted publickey for vagrant from 10.0.2.2 port 52903 ssh2: RSA SHA256:9/yFkcgfPJM8UUErmxu0n8ckcMjpJ9jIJBXI6VE/+Kw
+Nov 13 17:29:38 ubuntu-bionic sshd[8809]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Nov 13 17:29:38 ubuntu-bionic systemd-logind[835]: New session 6 of user vagrant.
+Nov 13 18:17:01 ubuntu-bionic CRON[17298]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 13 18:17:01 ubuntu-bionic CRON[17298]: pam_unix(cron:session): session closed for user root
+Nov 13 18:34:35 ubuntu-bionic sudo:  vagrant : TTY=pts/1 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/nano /etc/crontab
+Nov 13 18:34:35 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 18:36:36 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 18:37:44 ubuntu-bionic sudo:  vagrant : TTY=pts/1 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/tar -zcvf /var/log/alternatives.log /var/log/auth.log /var/log/cloud-init-output.log /var/log/cloud-init.log /var/log/dpkg.log /var/log/kern.log /var/log/ubuntu-advantage-timer.log
+Nov 13 18:37:44 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 18:37:44 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 18:38:27 ubuntu-bionic sudo:  vagrant : TTY=pts/1 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/tar -zcvf /var/log/alternatives.log /var/log/auth.log /var/log/cloud-init-output.log /var/log/cloud-init.log /var/log/dpkg.log /var/log/kern.log /var/log/ubuntu-advantage-timer.log log_backups
+Nov 13 18:38:27 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 18:38:28 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 18:38:56 ubuntu-bionic sudo:  vagrant : TTY=pts/1 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/tar -zcvf /var/log/alternatives.log /var/log/auth.log /var/log/cloud-init-output.log /var/log/cloud-init.log /var/log/dpkg.log /var/log/kern.log /var/log/ubuntu-advantage-timer.log ./backup_logs
+Nov 13 18:38:56 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Nov 13 18:38:56 ubuntu-bionic sudo: pam_unix(sudo:session): session closed for user root
+Nov 13 18:39:14 ubuntu-bionic sudo:  vagrant : TTY=pts/1 ; PWD=/home/vagrant/AV2 ; USER=root ; COMMAND=/bin/tar -zcvf backup_logs /var/log/alternatives.log /var/log/auth.log /var/log/cloud-init-output.log /var/log/cloud-init.log /var/log/dpkg.log /var/log/kern.log /var/log/ubuntu-advantage-timer.log
+Nov 13 18:39:14 ubuntu-bionic sudo: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
