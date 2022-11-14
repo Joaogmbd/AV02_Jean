@@ -1,0 +1,17 @@
+#!/bin/bash
+
+BLUE='\033[1;34m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+test -d $1
+ret=$?
+if  [ "$ret" -eq "0" ]
+then
+	printf "O primeiro parametro passado ${GREEN}corresponde${NC} a um diretorio.\n"
+else
+	printf "o primeiro parametro passado ${RED}nao corresponde${NC} a um diretorio\n"
+fi
+
+test $# -gt 0 && printf "foram passados ${BLUE}$#${NC} parametros\n" || printf "Nenhum parametro foi passado.\n"
