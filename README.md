@@ -18,3 +18,5 @@
 `#!/bin/bash`<br />
 `printf "O diretorio atual eh: $(pwd) \n"`<br />
 `printf "O Shell desse usuario eh: $(grep $(whoami) /etc/passwd | cut -d ":" -f 7)\n"`<br />
+- Atividade 6.8<br />
+`test $# -gt 0 && printf "foram passados $# parametros\n" || printf "Nenhum parametro foi passado.\n"`<br />
