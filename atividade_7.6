@@ -1,0 +1,13 @@
+#!/bin/bash
+echo $#
+if [ $# -eq 0 ]
+then
+  echo "Nao foi passado nenhum parametro!"
+  exit 1
+else
+  if [ $# -gt 0 ] # nao entendi o pq dessa estrutura :/
+  then 
+    echo "recuperando informaçoes"
+    grep $1 agenda
+  fi
+fi
