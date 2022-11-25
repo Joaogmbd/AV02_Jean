@@ -1,0 +1,9 @@
+#!/bin/bash
+
+palavra=$2
+if [[ "$palavra" =~ $1 ]]
+then
+	printf "a primeira palavra esta contida na segunda.\n"
+else
+	printf "nao esta contida\n"
+fi
