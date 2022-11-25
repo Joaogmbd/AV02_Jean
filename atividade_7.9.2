@@ -1,0 +1,17 @@
+#!/bin/bash
+
+arquivo=$1
+linhas=$(wc -wlc $arquivo | awk '{print $1}')
+palavras=$(wc -wlc $arquivo | awk '{print $2}')
+letras=$(wc -wlc $arquivo | awk '{print $3}') 
+
+
+permission=$(ls -l $arquivo |cut -d " " -f 1)
+if [[ "r" =~ $r. ]]
+then
+	printf "O usuario tem permissao de leitura\n"
+        printf "O numero de linhas eh $linhas\nO numero de palavras eh $palavras\nO numero de letras eh $letras\n"
+else
+	printf "O usuario nao tem permissao de leitura\n"
+fi
+
