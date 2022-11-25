@@ -1,1 +1,1 @@
-# Repositorio com scripts das atividades avaliativas do segundo bimestre
+# Scripts das atividades avaliativas do segundo bimestre
